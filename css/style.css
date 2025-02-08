@@ -10,9 +10,16 @@ body {
   background-color: #2B2B2B;
   font-family: "Work Sans", serif;
   font-style: normal;
+  color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6, a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
   margin: 0;
   padding: 0;
 }
@@ -36,4 +43,71 @@ img {
 
 .row {
   display: flex;
+}
+
+.hero_container {
+  width: 1180px;
+  margin: 20px auto;
+}
+
+.hero__row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__navbar .nav__list {
+  gap: 30px;
+  align-items: center;
+}
+
+.nav__item .btn {
+  padding: 19px 30px;
+  background-color: #A259FF;
+  border-radius: 20px;
+  font-family: Work Sans;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.nav__item .btn:hover {
+  background-color: #fff;
+  color: #A259FF;
+
+}
+
+.bx-user {
+  width: 16px;
+  padding-right: 20px;
+}
+
+.nav__link {
+  font-family: Work Sans;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #fff;
+}
+
+.nav__link:hover {
+  color: chocolate;
+}
+
+.burger {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+
+/* start media */
+
+@media screen and (max-width: 1200px) {
+  
+  .nav__list {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
 }
