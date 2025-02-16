@@ -351,7 +351,6 @@ img {
 
 .grid__img {
   width: 110px;
-  /* height: 120px; */
 }
 
 .creat__text h5 {
@@ -373,4 +372,35 @@ img {
 .creat__text p span {
   color: #fff;
   padding-left: 10px;
+}
+
+#browse {
+  margin-top: 160px;
+}
+
+.browse__title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 45.6px;
+  padding-bottom: 60px;
+}
+
+.browse__grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+}
+
+.box_one {
+  width: 240px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+
+.part__text p {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30.8px;
+  letter-spacing: 0%;
+  padding: 20px 30px;
 }
