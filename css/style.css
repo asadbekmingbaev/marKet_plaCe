@@ -597,3 +597,33 @@ img {
   line-height: 13.2px;
   letter-spacing: 0%;
 }
+
+/* work */
+
+#work {
+  margin-top: 80px;
+}
+
+.work img {
+  width: 250px;
+}
+
+.work .grid__box {
+  padding: 30px;
+  text-align: center;
+}
+
+.work__title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30.8px;
+  letter-spacing: 0%;
+}
+
+.work__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  padding-top: 10px;
+}
